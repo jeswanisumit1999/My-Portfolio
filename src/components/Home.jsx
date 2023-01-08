@@ -11,12 +11,12 @@ function Home() {
     >
       <div className="text-white flex flex-col lg:flex-row gap-10 justify-center items-center">
         <div>
-          <h2 className="text-3xl  sm:text-5xl font-bold mb-3 sm:mb-5">
+          <h2 className="text-2xl  sm:text-5xl font-bold mb-3 sm:mb-5">
             👋 Hey There,
           </h2>
-          <h2 className="text-4xl sm:text-6xl font-bold mb-3 sm:mb-5">
+          <h2 className="text-3xl sm:text-6xl font-bold mb-3 sm:mb-5">
             I,m{" "}
-            <span className="text-blue-400 text-5xl sm:text-7xl">
+            <span className="text-blue-400 text-3xl sm:text-7xl">
               Sumit Jeswani
             </span>
           </h2>

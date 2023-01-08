@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="text-black bg-white">
       <br />
-      <div className="flex justify-between px-20">
+      <div className="flex justify-between px-10 md:px-20">
         <h1 className="text-5xl font-signature ml-2">Sumit</h1>
         <div className="flex gap-5">
           <a href="https://www.linkedin.com/in/sumit-jeswani-3300861b3/">

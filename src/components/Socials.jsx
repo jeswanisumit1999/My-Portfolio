@@ -54,10 +54,10 @@ function Socials() {
       },
     ];
   return (
-    <div className="fixed top-[37%] left-0 hidden md:flex flex-col gap-2">
+    <div className="fixed top-[37%] left-0 md:flex flex-col gap-2">
       <ul>
         {links.map((link) => (
-          <li key={link.id} className={"bg-slate-800 w-40 text-white text-lg font-semibold px-4 py-2 ml-[-100px] hover:ml-[-10px] cursor-pointer duration-300 " + link.style}>
+          <li key={link.id} className={"md:bg-slate-800 w-40 text-white text-lg font-semibold px-4 py-2 ml-[-115px] md:ml-[-100px] hover:ml-[-10px] cursor-pointer duration-300 " + link.style}>
             <a className='flex justify-between gap-4' href={link.href}>
                 {link.icon}
             </a>
