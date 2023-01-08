@@ -49,7 +49,7 @@ function Skills() {
         id: 3,
         logo: (
           <>
-            <FaNodeJs size={50} d />
+            <FaNodeJs size={50}  />
             NodeJs
           </>
         ),
